@@ -20,8 +20,7 @@
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/fresco_image"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:scaleType="centerInside"
+            android:layout_height="300dp"
             fresco:placeholderImage="@drawable/material_design_4" />
 
         <com.facebook.drawee.view.SimpleDraweeView

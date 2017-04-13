@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //quality of the image starts out low and gradually becomes clearer
-        Uri fresco_image  = Uri.parse("https://www.redfin.com/blog/wp-content/uploads/sites/5/2015/10/fresco-logo1.png");
+        Uri fresco_image  = Uri.parse("https://raw.githubusercontent.com/adikul30/fbdevc-Fresco/master/images/rsz_1rsz_1rsz_1rsz_og_image.png");
         SimpleDraweeView draweeView = (SimpleDraweeView) findViewById(R.id.fresco_image);
         ImageRequest request = ImageRequestBuilder.newBuilderWithSource(fresco_image)
                 .setProgressiveRenderingEnabled(true)
