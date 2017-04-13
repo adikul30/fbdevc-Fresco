@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "devc.fbdevc_fresco"
-        minSdkVersion 21
+        minSdkVersion 18
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -25,9 +25,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
-    //Dependancy for fresco
+    //Dependency for fresco
     compile 'com.facebook.fresco:fresco:1.2.0'
-    //Dependancy for GIF support
+    //Dependency for GIF support
     compile 'com.facebook.fresco:animated-gif:1.2.0'
     testCompile 'junit:junit:4.12'
 }
