@@ -15,9 +15,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Initialize Fresco class once
-        Fresco.initialize(this);
-
         setContentView(R.layout.activity_main);
 
         //quality of the image starts out low and gradually becomes clearer
