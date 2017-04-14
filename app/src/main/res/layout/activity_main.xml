@@ -42,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="30dp"
+            fresco:roundAsCircle="true"
             fresco:placeholderImage="@drawable/material_design_4" />
 
         <com.facebook.drawee.view.SimpleDraweeView
