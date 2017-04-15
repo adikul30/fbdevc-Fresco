@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
         //quality of the image starts out low and gradually becomes clearer
         Uri fresco_image  = Uri.parse("https://raw.githubusercontent.com/adikul30/fbdevc-Fresco/master/images/rsz_1rsz_1rsz_1rsz_og_image.jpg");
-        //https://raw.githubusercontent.com/adikul30/fbdevc-Fresco/master/images/rsz_1rsz_1rsz_1rsz_og_image.png
 
         SimpleDraweeView draweeView = (SimpleDraweeView) findViewById(R.id.fresco_image);
         ImageRequest request = ImageRequestBuilder.newBuilderWithSource(fresco_image)
